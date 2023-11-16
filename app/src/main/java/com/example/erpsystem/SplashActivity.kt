@@ -5,11 +5,24 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
+import android.widget.ImageView
+import android.widget.ProgressBar
 
 class SplashActivity : AppCompatActivity() {
+  //  var img2: ImageView? = null
+  //  var progress: ProgressBar? = null
+   //     var animationUpToDown: Animation? = null
+  //  var animationDownToUp: Animation? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
+       // img2 = findViewById(R.id.img2)
+       // progress = findViewById(R.id.progress)
+      //  animationUpToDown = AnimationUtils.loadAnimation(this@SplashActivity,R.anim.uptodownanim)
+       // animationDownToUp = AnimationUtils.loadAnimation(this@SplashActivity,R.anim.downtotopanim)
 
         // we used the postDelayed(Runnable, time) method
         // to send a message with a delayed time.
