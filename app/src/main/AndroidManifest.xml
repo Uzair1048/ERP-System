@@ -12,6 +12,21 @@
         android:theme="@style/Theme.ERPSystem"
         tools:targetApi="31">
         <activity
+            android:name=".IcomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FaItActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IcsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FscActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CourseActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
